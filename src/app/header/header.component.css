@@ -1,0 +1,22 @@
+.header {
+  font-size: 56px;
+}
+
+div.background {
+  background: url("https://www.transparenttextures.com/patterns/satin-weave.png");
+}
+
+div.transbox {
+  font-weight: bold;
+  color: #000000;
+}
+
+div.transbox p {
+    font-weight: bold;
+    color: #000000;
+}
+
+.click {
+  background-color: white;
+  color: black;
+}
