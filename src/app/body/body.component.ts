@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-body',
@@ -12,4 +15,5 @@ export class BodyComponent implements OnInit {
   ngOnInit() {
   }
 
-}
+
+  }

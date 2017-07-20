@@ -59,8 +59,8 @@ p {
   margin-bottom: 20px;
 }
 .navbar-default {
-  background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+  background-color: black;
+  border-color: black;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -68,7 +68,7 @@ p {
   font-weight: 200;
   letter-spacing: 1px;
 }
-.navbar-default .navbar-header .navbar-brand {
+.navbar-header .navbar-brand {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -124,14 +124,14 @@ p {
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: #000000;
+    color: white;
   }
   .navbar-default.affix {
-    background-color: #000000;
+    background-color: white;
     border-color: rgba(34, 34, 34, 0.1);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #222222;
+    color: white;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
@@ -139,7 +139,7 @@ p {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: white;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -154,7 +154,7 @@ header {
   background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/satin-weave.png");
   /* fallback for old browsers */
-  color: black;
+  color: skyblue;
 }
 header .header-content {
   text-align: center;
