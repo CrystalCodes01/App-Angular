@@ -3,7 +3,8 @@
 }
 
 div.background {
-  background: url("https://www.transparenttextures.com/patterns/satin-weave.png");
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 div.transbox {

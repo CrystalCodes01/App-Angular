@@ -14,6 +14,8 @@ import { MapComponent } from './map/map.component';
 import { SmsComponent } from './sms/sms.component';
 import { Directive, Output, EventEmitter } from '@angular/core';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -47,11 +49,11 @@ imports: [
     FormsModule,
     HttpModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyA6A20GtS8PfE1DXgt6UAJLLm6sB6ys0fY'
+      apiKey: 'AIzaSyBxKfDRdjvlt8iwtDqVrZm8hDM8VuqgwY4'
     })
   ],
   providers: [],
-  declarations: [AppComponent, MapComponent, HeaderComponent, FooterComponent, BodyComponent, SmsComponent, HomeComponent],
+  declarations: [AppComponent, MapComponent, HeaderComponent, FooterComponent, BodyComponent, SmsComponent, HomeComponent, AboutComponent, RegisterComponent],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
