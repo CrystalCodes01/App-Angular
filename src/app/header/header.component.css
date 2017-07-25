@@ -24,3 +24,11 @@ div.transbox p {
   background-color: white;
   color: black;
 }
+
+ul li {
+  padding: 10px;
+}
+
+.pad {
+  padding: 10px;
+}
