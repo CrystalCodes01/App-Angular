@@ -20,6 +20,7 @@ import { JsonpModule } from '@angular/http';
 import { ContactItemComponent } from './contacts/contact-item/contact-item.component';
 import { ContactListComponent } from './contacts/contact-list/contact-list.component';
 import { Routes, RouterModule } from '@angular/router';
+import { ngSelectLocation, EmitterService } from './ng2-location/browser-location';
 
 
 
@@ -59,8 +60,8 @@ imports: [
       apiKey: 'AIzaSyBxKfDRdjvlt8iwtDqVrZm8hDM8VuqgwY4'
     })
   ],
-  providers: [],
-  declarations: [AppComponent, MapComponent, HeaderComponent, FooterComponent, BodyComponent, SmsComponent, HomeComponent, AboutComponent, RegisterComponent, ContactListComponent, ContactItemComponent],
+  providers: [ EmitterService ],
+  declarations: [AppComponent, MapComponent, HeaderComponent, FooterComponent, BodyComponent, SmsComponent, HomeComponent, AboutComponent, RegisterComponent, ContactListComponent, ContactItemComponent, ngSelectLocation],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
