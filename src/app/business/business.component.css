@@ -1,0 +1,52 @@
+.click {
+  background-color: white;
+  color: black;
+}
+
+ul li {
+  padding: 10px;
+}
+
+.pad {
+  padding: 10px;
+}
+
+img {
+  max-height: 400px;
+  max-width: 300px;
+}
+
+.img-center {
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.text {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.text2 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+.text3 {
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.center {
+  display: inline-block;
+  text-align: center;
+  }

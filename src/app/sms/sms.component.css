@@ -28,7 +28,6 @@ img {
 
 .text {
   text-align: center;
-  padding: 10px;
   letter-spacing: 1px;
 }
 
@@ -42,8 +41,18 @@ img {
 
 .text3 {
   text-align: center;
+  align-items: center;
+  display: inline-block;
   letter-spacing: 1px;
   font-size: 20px;
+}
+
+.text4 {
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 26px;
 }
 
 .center {

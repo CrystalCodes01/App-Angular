@@ -11,6 +11,8 @@ import { Router, Request, Response } from "express";
 import { ContactListComponent } from './contacts/contact-list/contact-list.component';
 import { ContactItemComponent } from './contacts/contact-item/contact-item.component';
 import { MapComponent } from './map/map.component';
+import { BusinessComponent } from './business/business.component';
+import { SafeComponent } from './safe/safe.component';
 
 const routes: Routes = [
   { path: '',  component: HomeComponent },
@@ -18,7 +20,9 @@ const routes: Routes = [
   { path: 'about',  component: AboutComponent },
   { path: 'register',  component: RegisterComponent },
   { path: 'contacts', component: ContactListComponent },
-  { path: 'map', component: MapComponent }
+  { path: 'map', component: MapComponent },
+  { path: 'business', component: BusinessComponent },
+  { path: 'safe', component: SafeComponent },
 
   // url display name (path name
 ];
