@@ -1,7 +1,7 @@
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header pad">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
@@ -30,13 +30,58 @@
         <!-- /.container-fluid -->
     </nav>
 
-<div class="container">
-    <img class="img-responsive center-block" src="assets/img/text.png">
-    <div>
-        <h3>Send an alert to your trusted contacts</h3>
-    </div>
-
-    <button (click)="sendText()" class="btn btn-primary btn-block">Send Text Message</button>
+<div class="container-fluid yellow">
+  <div class="row yellow">
+    <div class="col-sm-4 text2"><img src="assets/img/text.png" class="img-responsive" alt="">Connect</div>
+    <div class="col-sm-4 text2"><img src="assets/img/text.jpeg" class="img-responsive" alt="">Communicate</div>
+    <div class="col-sm-4 text2"><img src="assets/img/text3.jpeg" class="img-responsive" alt="">Change</div>
+  </div>
 </div>
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+            <h2 class="text">Send an alert to your stored contacts with your current location to notify them that you need help.</h2>
+            <br><br>
+            <button (click)="sendText()" class="btn btn-warning btn-lg center yellow2">Send Alert Message Now</button>
+            <br><br><br><br>
+            <h1 class="text"> 📌 Crystal's Safety Pin Contacts 📌 </h1>
+            </div>
+
+      <app-contact-list></app-contact-list>
+
+
+  <section class="display">
+    <h2 class="text3">Add Contacts:</h2>
+    <form id="new-character-form">
+      <div class="field">
+        <label class="text3">Name: </label>
+        <input type="text3">
+      </div>
+      <div class="field">
+        <label class="text3">Phone number: </label>
+        <input type="text3">
+      </div>
+      <button class="btn btn-default text3" id="send-data" (click)="createNew()">Create</button>
+    </form>
+  </section>
+<section class="display">
+    <h2 class="text3">Edit Contacts:</h2>
+    <form id="edit-character-form">
+      <div class="field">
+        <label class="text3">Name: </label>
+        <input type="text">
+      </div>
+      <div class="field">
+        <label class="text3">Phone number: </label>
+        <input type="text3">
+      </div>
+      <button class="btn btn-default text3" id="send-data" (click)="editOne(characterToCreateOrEdit.id)">Update</button>
+    </form>
+  </section>
+</div>
+
+    <!-- /.row -->
+
+
 
 <app-footer> </app-footer>

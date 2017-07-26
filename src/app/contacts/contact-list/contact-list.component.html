@@ -1,0 +1,10 @@
+<ul>
+  <li *ngFor="let oneContact of allTheQuotes">
+
+    <contact-item
+        (onQuoteDelete)="doSomething($event)"
+        [contactInfo]="oneContact"></contact-item>
+
+
+  </li>
+</ul>

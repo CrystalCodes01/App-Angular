@@ -1,49 +1,32 @@
+button {
+  background-color: red;
+  color: white;
+  margin-left: 12px;
+}
+
+
 ul li {
-  padding: 10px;
+  padding: 40px;
+  list-style: none;
+  float: left;
 }
-
-img {
-  padding: 10px;
-  border: 2px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 3px;
-}
-
-.yellow {
-  background-color: #fdcc52;
-  padding: 20px;
-  margin-top: 15px;
-  margin-bottom: -10px;
-}
-
-.yellow2 {
-  background-color: #fdcc52;
-}
-
 
 .pad {
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .text {
   text-align: center;
-  padding: 10px;
+  padding: 3px;
   letter-spacing: 1px;
 }
 
 .text2 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  font-size: 50px;
+  font-size: 36px;
   padding: 10px;
   text-align: center;
   text-rendering: optimizeLegibility;
-}
-
-.text3 {
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 20px;
 }
 
 .center {

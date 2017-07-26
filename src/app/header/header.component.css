@@ -1,14 +1,15 @@
-.header {
-  font-size: 56px;
-}
-
 div.background {
   background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
+h2 {
+  font-size: 24px;
+}
+
 div.transbox {
   font-weight: bold;
+  text-align: center;
   color: #000000;
   background-color: white;
   border-radius: 10px;
@@ -17,6 +18,8 @@ div.transbox {
 
 div.transbox p {
     font-weight: bold;
+    font-size: 20px;
+    text-align: center;
     color: #000000;
 }
 
@@ -31,4 +34,14 @@ ul li {
 
 .pad {
   padding: 10px;
+}
+
+.header {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+
 }
