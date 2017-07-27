@@ -22,6 +22,7 @@ import { ContactListComponent } from './contacts/contact-list/contact-list.compo
 import { Routes, RouterModule } from '@angular/router';
 import { BusinessComponent } from './business/business.component';
 import { SafeComponent } from './safe/safe.component';
+import { AngelComponent } from './angel/angel.component';
 
 
 
@@ -62,7 +63,7 @@ imports: [
     })
   ],
   providers: [ ],
-  declarations: [AppComponent, MapComponent, HeaderComponent, FooterComponent, BodyComponent, SmsComponent, HomeComponent, AboutComponent, RegisterComponent, ContactListComponent, ContactItemComponent, BusinessComponent, SafeComponent],
+  declarations: [AppComponent, MapComponent, HeaderComponent, FooterComponent, BodyComponent, SmsComponent, HomeComponent, AboutComponent, RegisterComponent, ContactListComponent, ContactItemComponent, BusinessComponent, SafeComponent, AngelComponent],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

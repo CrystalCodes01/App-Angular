@@ -9,11 +9,13 @@ import {Response} from "@angular/http";
   providers: [HttpService]
 })
 export class SmsComponent {
+    isShowingMessage: boolean = false;
     backMessage;
   constructor(private _http: HttpService) { }
 
     sendText(){
         console.log("Sending text message....");
+        this.isShowingMessage = !this.isShowingMessage;
         this._http.sendText()
             .subscribe((data) => {
                 this.backMessage = data;

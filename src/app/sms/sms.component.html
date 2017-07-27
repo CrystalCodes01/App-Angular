@@ -42,10 +42,11 @@
     <div class="row">
             <h2 class="text">Send an alert to your stored contacts with your current location to notify them that you need help.</h2>
             <br><br>
-            <button (click)="sendText()" class="btn btn-warning btn-lg center yellow2">Send Alert Message Now</button>
-            <br><br><br><br>
+            <button *ngIf="!isShowingMessage || isShowingMessage" (click)="sendText()" class="btn btn-warning btn-lg center yellow2">Send Alert Message Now</button>
+              <div class="text5" *ngIf="isShowingMessage">
+            <p class="text5"> Alert has been sent to Safety Contacts ✅ </p>
+          </div>
             <h1 class="text"> 📌 Crystal's Safety Pin Contacts 📌 </h1>
-            </div>
 
       <app-contact-list></app-contact-list>
 
@@ -79,7 +80,7 @@
     </form>
   </section>
 </div>
-
+</div>
     <!-- /.row -->
 
 

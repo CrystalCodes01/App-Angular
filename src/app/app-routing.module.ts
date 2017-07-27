@@ -13,6 +13,7 @@ import { ContactItemComponent } from './contacts/contact-item/contact-item.compo
 import { MapComponent } from './map/map.component';
 import { BusinessComponent } from './business/business.component';
 import { SafeComponent } from './safe/safe.component';
+import { AngelComponent } from './angel/angel.component';
 
 const routes: Routes = [
   { path: '',  component: HomeComponent },
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'map', component: MapComponent },
   { path: 'business', component: BusinessComponent },
   { path: 'safe', component: SafeComponent },
+  { path: 'angel', component: AngelComponent }
 
   // url display name (path name
 ];

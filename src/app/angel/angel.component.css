@@ -11,21 +11,17 @@ ul li {
   padding: 10px;
 }
 
-
 button {
   margin-left: 500px;
 }
 
 img {
-  max-height: 400px;
+  max-height: 500px;
   max-width: 300px;
 }
 
 .img-center {
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
-
+    padding: 20px;
 }
 
 .text {
