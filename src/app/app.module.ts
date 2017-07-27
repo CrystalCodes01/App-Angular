@@ -23,6 +23,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { BusinessComponent } from './business/business.component';
 import { SafeComponent } from './safe/safe.component';
 import { AngelComponent } from './angel/angel.component';
+import { ReportComponent } from './report/report.component';
+
 
 
 
@@ -63,7 +65,7 @@ imports: [
     })
   ],
   providers: [ ],
-  declarations: [AppComponent, MapComponent, HeaderComponent, FooterComponent, BodyComponent, SmsComponent, HomeComponent, AboutComponent, RegisterComponent, ContactListComponent, ContactItemComponent, BusinessComponent, SafeComponent, AngelComponent],
+  declarations: [AppComponent, MapComponent, HeaderComponent, FooterComponent, BodyComponent, SmsComponent, HomeComponent, AboutComponent, RegisterComponent, ContactListComponent, ContactItemComponent, BusinessComponent, SafeComponent, AngelComponent, ReportComponent],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

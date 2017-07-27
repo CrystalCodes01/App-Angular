@@ -14,6 +14,7 @@ import { MapComponent } from './map/map.component';
 import { BusinessComponent } from './business/business.component';
 import { SafeComponent } from './safe/safe.component';
 import { AngelComponent } from './angel/angel.component';
+import { ReportComponent } from './report/report.component';
 
 const routes: Routes = [
   { path: '',  component: HomeComponent },
@@ -24,7 +25,9 @@ const routes: Routes = [
   { path: 'map', component: MapComponent },
   { path: 'business', component: BusinessComponent },
   { path: 'safe', component: SafeComponent },
-  { path: 'angel', component: AngelComponent }
+  { path: 'angel', component: AngelComponent },
+  { path: 'report', component: ReportComponent },
+
 
   // url display name (path name
 ];
