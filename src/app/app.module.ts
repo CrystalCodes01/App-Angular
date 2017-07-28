@@ -56,7 +56,6 @@ imports: [
     AppRoutingModule,
     FormsModule,
     HttpModule,
-    JsonpModule,
   // Finishes the connection
                                     // between the app and our routes
     AgmCoreModule.forRoot({
