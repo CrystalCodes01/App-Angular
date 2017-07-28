@@ -16,7 +16,6 @@ import { Directive, Output, EventEmitter } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { RegisterComponent } from './register/register.component';
-import { JsonpModule } from '@angular/http';
 import { ContactItemComponent } from './contacts/contact-item/contact-item.component';
 import { ContactListComponent } from './contacts/contact-list/contact-list.component';
 import { Routes, RouterModule } from '@angular/router';
