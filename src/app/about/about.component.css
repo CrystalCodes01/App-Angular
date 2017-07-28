@@ -14,3 +14,42 @@ ul li {
 .pad {
   padding: 10px;
 }
+
+.text {
+  text-align: center;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+  font-size: 26px;
+}
+
+.text2 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+.text3 {
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.text4 {
+  text-align: center;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+}
+
+.text5 {
+  text-align: center;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+  font-size: 32px;
+  text-decoration: underline;
+}

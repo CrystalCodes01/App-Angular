@@ -37,12 +37,11 @@
         <img class="pull-left" src="https://azure.microsoft.com/svghandler/search/?width=600&height=315"/>
         <img class="pull-right" src="https://vignette1.wikia.nocookie.net/scribblenauts/images/7/74/Guard.png/revision/latest?cb=20130119210144"/>
     </h3>
-
+      <p class="text"> Incident Reports </p>
     <!-- <div class="alert alert-danger text-center" role="alert" ng-show="apiError">
         <b>API Error : </b>
         <span>{{ apiStatus }}</span>
     </div> -->
-
     <form name="searchForm" novalidate
     ng-submit="search()">
         <div class="input-group">
@@ -55,35 +54,28 @@
         </div>
     </form>
 
-    <div id="map"></div>
+    <div id="map"><img src="assets/img/in2.png"> </div>
 
     <form name="resForm" class="form-horizontal" novalidate
     ng-submit="send()">
         <div class="form-group">
-            <label for="resName" class="col-xs-2 control-label">Name</label>
+            <label for="resName" class="col-xs-2 control-label text3">Address:</label>
             <div class="col-xs-10">
                 <input name="resName" type="text" class="form-control"
                 ng-model="place.name" required />
             </div>
         </div>
         <div class="form-group">
-            <label for="resLat" class="col-xs-2 control-label">Latitude</label>
+            <label for="resLat" class="col-xs-2 control-label text3">Type of Incident:</label>
             <div class="col-xs-10">
                 <input name="resLat" type="number" class="form-control"
                 ng-model="place.lat" required />
             </div>
         </div>
         <div class="form-group">
-            <label for="resLng" class="col-xs-2 control-label">Longitude</label>
-            <div class="col-xs-10">
-                <input name="resLng" type="number" class="form-control"
-                ng-model="place.lng" required />
-            </div>
-        </div>
-        <div class="form-group">
             <div class="col-xs-offset-2 col-xs-10">
-                <button class="btn btn-success"
-                ng-disabled="resForm.$invalid">Confirm</button>
+                <button class="btn btn-danger btn-lg"
+                ng-disabled="resForm.$invalid">Report!</button>
             </div>
         </div>
     </form>
