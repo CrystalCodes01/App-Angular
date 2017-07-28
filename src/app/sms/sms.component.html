@@ -18,7 +18,7 @@
                         <a class="page-scroll" href="#features">Features</a>
                     </li>
                     <li>
-                        <a class="page-scroll" [routerLink]="['about']">Our Story</a>
+                        <a class="page-scroll" href="#about">Our Story</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -37,10 +37,11 @@
     <div class="col-sm-4 text2"><img src="assets/img/text3.jpeg" class="img-responsive" alt="">Change</div>
   </div>
 </div>
+  <br><br>
 <!-- Page Content -->
 <div class="container">
     <div class="row">
-            <h2 class="text">Send an alert to your stored contacts with your current location to notify them that you need help.</h2>
+            <p class="text4">Send an alert to your stored contacts with your current location to notify them that you need help.</p>
             <br><br>
             <button *ngIf="!isShowingMessage || isShowingMessage" (click)="sendText()" class="btn btn-warning btn-lg center yellow2">Send Alert Message Now</button>
               <div class="text5" *ngIf="isShowingMessage">
@@ -52,7 +53,7 @@
 
 
   <section class="display">
-    <h2 class="text4">Add Contacts:</h2>
+    <p class="text4">Add Contacts:</p>
     <form>
       <div class="field">
         <label class="text3">Name: </label>
@@ -66,7 +67,7 @@
     </form>
   </section>
 <section class="display">
-    <h2 class="text4">Edit Contacts:</h2>
+    <p class="text4">Edit Contacts:</p>
     <form>
       <div class="field">
         <label class="text3">Name: </label>

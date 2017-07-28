@@ -7,3 +7,26 @@ agm-map {
   padding: 10px;
   font-weight: 100;
 }
+
+.click {
+  background-color: white;
+  color: black;
+}
+
+ul li {
+  padding: 10px;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.header {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+
+}
